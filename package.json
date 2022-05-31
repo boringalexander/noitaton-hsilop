@@ -1,0 +1,23 @@
+{
+  "name": "noitaton-hsilop",
+  "version": "1.0.0",
+  "description": "Reverse polish notation calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config config/jest.config.js",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boringalexander/noitaton-hsilop.git"
+  },
+  "devDependencies": {
+    "jest": "^27.0.0"
+  },
+  "author": "Alexander Boring",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boringalexander/noitaton-hsilop/issues"
+  },
+  "homepage": "https://github.com/boringalexander/noitaton-hsilop#readme"
+}
