@@ -5,14 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --config config/jest.config.js",
-    "start": "node index"
+    "start": "node ./index"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/boringalexander/noitaton-hsilop.git"
   },
+  "dependencies": {
+    "arcsecond": "^4.1.0"
+  },
   "devDependencies": {
-    "jest": "^27.0.0"
+    "jest": "^27.0.0",
+    "@faker-js/faker": "^7.1.0"
   },
   "author": "Alexander Boring",
   "license": "ISC",
