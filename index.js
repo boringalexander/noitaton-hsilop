@@ -1,7 +1,9 @@
 'use strict';
 
+const cli = require('./lib/index');
+
 const main = () => {
-    console.log('hello world');
+    cli();
 };
 
 main();
