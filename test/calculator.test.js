@@ -5,7 +5,7 @@ const Token = require('../lib/token');
 const { expressionParser } = require('../lib/parser');
 const { evaluate, calculate } = require('../lib/calculator');
 
-describe('solveRPN', () => {
+describe('calculator', () => {
 
     describe('evaluate', () => {
 
@@ -23,7 +23,7 @@ describe('solveRPN', () => {
 
     describe('calculate', () => {
 
-        it('evaluates tokenized expressions', () => {
+        it('evaluates tokenized arithmetic expressions', () => {
 
             const inputs = ['5 8 +', '5 5 5 8 + + - 13 +', '-3 -2 * 5 +', '5 9 1 - /'];
             const tokenizedInputs = inputs.map(line => expressionParser.run(line).result);
